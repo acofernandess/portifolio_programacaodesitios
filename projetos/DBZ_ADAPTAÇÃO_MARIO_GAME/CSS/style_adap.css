@@ -1,0 +1,89 @@
+
+   body{
+    background-image: url(../IMG_ADAPTACAO/bg2.jpg);
+    background-size: 45%;
+    background-position-x: center;
+    
+   } 
+
+
+*{
+        padding: 0;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.palco-game {
+    background-image:url(../IMG_ADAPTACAO/bg.jpg);   
+    width: 100%;
+    height: 500px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 5%;
+    
+}
+
+.madimbu {
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    animation: madimbu-animation 2s infinite linear;
+}
+
+@keyframes madimbu-animation {
+    from {
+        right: 0;
+        right: -80px;
+    }
+    to {
+        right: 100%;
+    }
+}
+
+.goku {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+}
+
+.pulo {
+    animation: goku-animation 500ms ease-out;
+}
+
+@keyframes goku-animation {
+    0% {
+        bottom: 0;
+    }
+    40% {
+        bottom: 180px;
+    }
+    50% {
+        bottom: 180px;
+    }
+    60% {
+        bottom: 180px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+.shen {
+    position: absolute;
+    width: 200px;
+    animation: shen-animation 10s infinite linear;
+}
+
+@keyframes shen-animation {
+    from {
+        right: -550px;
+    }
+    to {
+        right: 100%;
+    }
+}
+        

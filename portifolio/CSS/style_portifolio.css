@@ -1,0 +1,206 @@
+body{
+    background-image: url("../IMG/stars.jpg");
+    height: 938px;
+}
+
+
+.conteudo_cabeca{
+    background-color: rgba(0, 0, 0, 0.5); 
+        height: 150px;
+    padding-top: 25px;
+    margin-left: 20%;
+    margin-right: 20%;   
+    border-radius: 20px;
+    text-align: center;   
+    border-top-width: 3px;
+    border-style: solid;
+    border-top-color: #ffffff;
+    color: white;
+    
+}
+
+.nav{
+    background-color: rgba(0, 0, 0, 0.5); 
+        height: 48px;
+    margin-left: 20%;
+    margin-right: 20%;  
+    border-radius: 10px;
+    /* justify-content:flex-start; */
+    padding-left: 22px;
+    border-top-width: 3px;
+    border-style: solid;
+    border-top-color: #ffffff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ul{
+    
+    display: flex;
+  justify-content: center;
+    
+}
+
+.botao_nav{
+    width: 5cm;
+    margin-top: 7px;
+    margin-right: 60px
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.5); 
+    height: 100px;
+    margin-left: 20%;
+    margin-right: 20%;  
+    padding-top: 30px; 
+    border-radius: 20px;
+    text-align: center;   
+    border-top-width: 3px;
+    border-style: solid;
+    border-top-color: #ffffff;
+    color: white;
+
+}
+
+.article{
+    background-color: rgba(0, 0, 0, 0.5); 
+    height: 690px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px; 
+    border-top-width: 3px;
+    border-style: solid;
+    border-top-color: #ffffff;
+    color: white;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.texto{
+    padding: 15px;
+    font-size: larger;
+}
+
+.topicos{
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.article-index{
+    background-color: rgba(0, 0, 0, 0.5); 
+    height: 1350px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px; 
+    border-top-width: 3px;
+    border-style: solid;
+    border-top-color: #ffffff;
+    color: white;
+    text-align: center;
+
+}
+
+.article-quem{
+    background-color: rgba(0, 0, 0, 0.5); 
+    height: 1300px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px; 
+    border-top-width: 3px;
+    border-style: solid;
+    border-top-color: #ffffff;
+    color: white;
+    text-align: center;
+
+}
+
+.article-projetos{
+    background-color: rgba(0, 0, 0, 0.5); 
+    height: 1100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px; 
+    border-top-width: 3px;
+    border-style: solid;
+    border-top-color: #ffffff;
+    color: white;
+    text-align: center;
+
+}
+
+
+
+.vidaFoto{
+    display: flex;
+}
+
+.vida{
+    width: 60%;
+    text-align:justify;
+    margin-right: 35px;
+}
+
+.minhafoto{
+
+width: 40%;
+}
+
+.eu{
+    width: 50%;
+}
+
+.textoquem{
+    text-align:justify;
+    margin-right: 35px;
+    margin-left: 35px;
+
+}
+
+.textoprojeto{
+    text-align:justify;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.linksporjetos{
+    font-size: 30px;
+    font-style: italic;
+   
+}
+.aprojetos{
+    
+
+    color: aquamarine;
+}
+
+
+.aprojetos:hover{
+
+    color: greenyellow;
+
+}
+
+
+.botao_nav{
+
+    height: 30px;
+    width: 150px;
+    background-color: #ffffff;
+    border-radius:10cm;  
+    
+
+}
+
+.anav{
+    color:black
+}
+
+.anav:hover{
+    color: black;
+    background-color: yellowgreen;
+
+}
